@@ -17,9 +17,14 @@
 * [zaw](https://github.com/zsh-users/zaw)
 
 
+## Installation
+
+Install `zaw-git-directories.zsh` to `zaw/sources` directory.
+
+
 ## Sample configuration
 
 ````sh
-source ~/.zsh/zaw/zaw.zsh
-bindkey '^[#' zaw-git-directories # Alt-@
+source ~/.zsh/zaw/zaw.zsh # If you install zaw to '~/.zsh/'
+bindkey '^[#' zaw-git-directories # binding to 'Alt-@'
 ````
